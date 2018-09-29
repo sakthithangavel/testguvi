@@ -10,8 +10,8 @@ if(num<=0)
 else
 {
   if(num%2==0)
-    printf("even");
+    printf("Even");
   else 
-    printf("odd");
+    printf("Odd");
 }
 }
