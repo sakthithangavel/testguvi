@@ -29,12 +29,19 @@ public class duplicate {
 				}
 			}
 		}
+		if(se.size()==1)
+		{
+			System.out.print("unique");
+		}
+		else
+		{
 		for(Map.Entry<Integer,Integer> e:m.entrySet())
 		{
 			if(e.getValue()>1)
 			{
 				System.out.print(e.getKey()+" ");
 			}
+		}
 		}
 	}
 
