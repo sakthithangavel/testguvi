@@ -11,6 +11,7 @@ public class duplicate {
 		int n=sc.nextInt();
 		int arr[]=new int[n];
 		LinkedHashSet<Integer> se=new LinkedHashSet<Integer>();
+		LinkedHashSet<Integer> se2=new LinkedHashSet<Integer>();
 		LinkedHashMap<Integer,Integer> m=new LinkedHashMap<Integer,Integer>();
 		for(int i=0;i<n;i++)
 		{
@@ -41,7 +42,15 @@ public class duplicate {
 			{
 				System.out.print(e.getKey()+" ");
 			}
+			else
+			{
+				se2.add(e.getValue());
+			}
 		}
+		}
+		if(se2.size()==1)
+		{
+			System.out.print("unique");
 		}
 	}
 
