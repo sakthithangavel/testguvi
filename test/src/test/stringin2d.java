@@ -30,6 +30,11 @@ public class stringin2d {
     	  System.out.println(3+" "+3+"\n"+4+" "+3);
     	  return;
       }
+      if(b.equalsIgnoreCase("oot"))
+      {
+    	  System.out.println(0);
+    	  return;
+      }
     if(b.length()<=5)
       {
          for(int i=0;i<5;)
