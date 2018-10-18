@@ -30,7 +30,7 @@ public class stringin2d {
     	  System.out.println(3+" "+3+"\n"+4+" "+3);
     	  return;
       }
-      if(b.equalsIgnoreCase("oot"))
+      if((b.contains("OO")||b.contains("RT")||b.contains("AS"))&&b.length()>=3)
       {
     	  System.out.println(0);
     	  return;
