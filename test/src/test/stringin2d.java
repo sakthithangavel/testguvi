@@ -30,11 +30,6 @@ public class stringin2d {
     	  System.out.println(3+" "+3+"\n"+4+" "+3);
     	  return;
       }
-      if((b.contains("OO")||b.contains("RT")||b.contains("AS"))&&b.length()>=3)
-      {
-    	  System.out.println(0);
-    	  return;
-      }
     if(b.length()<=5)
       {
          for(int i=0;i<5;)
@@ -99,7 +94,7 @@ public class stringin2d {
 					return false;
 				}
 			}
-			if(e1==e2)
+			if(e1==e2&&k+1==b.length())
 			{
 				System.out.println(s1+" "+e1+"\n"+s2+" "+e2);
 				return true;
